@@ -36,9 +36,9 @@
 
         NUM {
             bindings = <
-&kp EXCL     &kp AT         &kp HASH   &kp DOLLAR            &kp PRCNT                                  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&kp CARET    &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp INT_YEN  &kp COLON      &kp SEMI   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&kp EXCL     &kp AT         &kp HASH   &kp DOLLAR            &kp PRCNT                                  &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp CARET    &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none       &none   &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp INT_YEN  &kp COLON      &kp SEMI   &kp LEFT_BRACE        &kp RIGHT_BRACE        &none       &none   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
 &trans       &trans         &trans     &trans                &trans                 &trans      &trans  &trans                                                  &kp SLASH
             >;
         };
