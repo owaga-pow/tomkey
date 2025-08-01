@@ -16,10 +16,9 @@
 };
 
 / {
-    // トラックボールのXYスケーリング（感度調整）
     zip_xy_scaler: zip_xy_scaler {
         compatible = "zmk,input-xy-scaler";
-        x-scale = <2>;  // 数値を大きくすると動きが速くなる
+        x-scale = <2>;  // 感度が2倍（←ここを1や3に変えて調整可）
         y-scale = <2>;
     };
 };
@@ -33,32 +32,12 @@
     compatible = "nordic,nrf-spim";
 
     trackball: pd@0 {
-        status = "disabled";  // 後で &trackball で有効化される
+        status = "disabled";
         compatible = "pixart,pmw3610";
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <1600>;
-    };
-};
-
-/ {
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-
-        trackball_split: trackball_split@0 {
-            compatible = "zmk,input-split";
-            reg = <0>;
-        };
-    };
-
-    // 感度調整を含めたトラックボール入力リスナ
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        status = "okay";
-        device = <&trackball>;
-        input-processors = <&zip_xy_scaler>;
     };
 };
 
@@ -68,11 +47,18 @@
     evt-type = <INPUT_EV_REL>;
     x-input-code = <INPUT_REL_X>;
     y-input-code = <INPUT_REL_Y>;
+    input-processors = <&zip_xy_scaler>; // ✅ ここに正しく記述
 };
 
 &trackball_split {
     device = <&trackball>;
 };
+
+&trackball_listener {
+    status = "okay";
+    device = <&trackball>;
+};
+
 
 &trackball_split {
     device = <&trackball>;
