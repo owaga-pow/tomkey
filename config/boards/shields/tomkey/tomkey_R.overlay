@@ -1,7 +1,7 @@
 #include "tomkey.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
-#include "aml.dtsi"
+#include "../../aml.dtsi"
 
 &default_transform {
     col-offset = <6>;
