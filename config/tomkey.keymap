@@ -12,25 +12,16 @@
 &kp Q      &kp W         &kp E           &kp R             &kp T                                                &kp Y                 &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D           &kp F             &kp G        &kp EXCLAMATION      &kp LEFT_BRACKET   &kp H                 &kp J  &kp K      &kp L    &kp MINUS
 &kp Z      &kp X         &kp C           &kp V             &kp B        &kp QUESTION         &kp RIGHT_BRACKET  &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 3 LANGUAGE_2  &lt 4 SPACE  &lt 5 LANG1          &kp BACKSPACE      &mt LEFT_SHIFT ENTER                             &lt 6 LEFT_WIN
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 2 LANGUAGE_2  &lt 4 SPACE  &lt 5 LANG1          &kp BACKSPACE      &mt LEFT_SHIFT ENTER                             &lt 6 LEFT_WIN
             >;
         };
 
         MOUSE {
             bindings = <
 &none   &none   &none   &none   &none                            &none     &none     &mkp MB3  &none     &none
-&none   &none   &none   &none   &none   &none       &kp LC(TAB)  &mkp MB4  &mkp MB1  &mo 2     &mkp MB2  &mkp MB5
+&none   &none   &none   &none   &none   &none       &kp LC(TAB)  &mkp MB4  &mkp MB1  &mo 3     &mkp MB2  &mkp MB5
 &none   &none   &none   &none   &none   &none       &kp LC(R)    &none     &none     &none     &none     &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                  &trans
-            >;
-        };
-
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -40,6 +31,15 @@
 &none   &kp LEFT_WIN  &kp ESCAPE       &kp TAB    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC      &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
 &none   &none         &kp LC(C)        &kp LC(V)  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC      &none   &none   &none           &none           &none            &none
 &trans  &trans        &trans           &trans     &trans             &trans                    &trans  &trans                                                   &trans
+            >;
+        };
+
+        SCROLL {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -63,10 +63,10 @@
 
         BLUETOOTH {
             bindings = <
-&bootloader  &none   &none   &none   &none                       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none        &none   &none   &none   &none   &none       &none   &none         &none         &none         &none         &none
-&none        &none   &none   &none   &none   &none       &none   &none         &none         &none         &none         &none
-&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
+&none        &none   &none   &none   &none                            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none        &none   &none   &none   &none   &none       &none        &none         &none         &none         &none         &none
+&bootloader  &none   &none   &none   &none   &none       &bootloader  &none         &none         &none         &none         &none
+&trans       &trans  &trans  &trans  &trans  &trans      &trans       &trans                                                  &trans
             >;
         };
     };
