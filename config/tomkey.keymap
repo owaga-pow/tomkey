@@ -4,6 +4,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        a {
+            bindings = <&kp A>;
+            key-positions = <7 16 28 17 18 19 20 21>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
