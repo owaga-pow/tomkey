@@ -39,7 +39,6 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         cpi = <1600>;
-        input-processors = <&zip_xy_scaler>;
     };
 };
 
@@ -67,6 +66,7 @@
     evt-type = <INPUT_EV_REL>;
     x-input-code = <INPUT_REL_X>;
     y-input-code = <INPUT_REL_Y>;
+    input-processors = <&zip_xy_scaler>;
 };
 
 &trackball_split {
