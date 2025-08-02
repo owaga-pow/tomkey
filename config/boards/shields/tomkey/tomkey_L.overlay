@@ -24,13 +24,15 @@
 &zip_temp_layer {
     excluded-positions = <
         7
-        16
         17
         18 // J
         19 // K
         20 // L
         21 // -
-        28
+        30
+        31
+        32
+        
     >;
     require-prior-idle-ms = <200>;
 };
