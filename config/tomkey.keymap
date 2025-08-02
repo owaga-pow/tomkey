@@ -49,7 +49,7 @@
             bindings = <
 &kp EXCL   &kp AT         &kp HASH              &kp DOLLAR             &kp PRCNT                                 &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
 &kp INT3   &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp APOSTROPHE     &kp CARET      &kp F7  &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp COLON  &kp SEMI       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp ASTRK      &none   &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&kp COLON  &kp SEMI       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp ASTRK      &kp F8  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
 &trans     &trans         &trans                &trans                 &trans             &trans         &trans  &trans                                                  &kp SLASH
             >;
         };
