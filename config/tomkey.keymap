@@ -11,10 +11,10 @@
 
         DEFAULT {
             bindings = <
-&kp Q      &kp W         &kp E           &kp R             &kp T                                                 &kp Y                 &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D           &kp F             &kp G        &kp QUESTION          &kp EXCLAMATION    &kp H                 &kp J  &kp K      &kp L    &kp MINUS
-&kp Z      &kp X         &kp C           &kp V             &kp B        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 3 LANGUAGE_1  &lt 4 SPACE  &lt 5 LANGUAGE_2      &kp BACKSPACE      &mt LEFT_SHIFT ENTER                             &lt 5 LEFT_WIN
+&kp Q      &kp W         &kp E           &kp R             &kp T                                                         &kp Y                 &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D           &kp F             &kp G        &kp QUESTION              &kp EXCLAMATION        &kp H                 &kp J  &kp K      &kp L    &kp MINUS
+&kp Z      &kp X         &kp C           &kp V             &kp B        &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 3 LANGUAGE_1  &lt 4 SPACE  &lt 5 LANGUAGE_2          &kp BACKSPACE          &mt LEFT_SHIFT ENTER                             &lt 5 LEFT_WIN
             >;
         };
 
@@ -47,10 +47,10 @@
 
         NUM {
             bindings = <
-&kp EXCL     &kp AT         &kp HASH              &kp DOLLAR             &kp PRCNT                                 &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&kp SEMI     &kp COLON      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp APOSTROPHE     &kp CARET      &kp F7  &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp INT_YEN  &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &kp ASTRK      &kp F8  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-&trans       &trans         &trans                &trans                 &trans             &trans         &trans  &trans                                                  &kp SLASH
+&kp EXCL     &kp AT         &kp HASH          &kp DOLLAR         &kp PRCNT                                 &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp SEMI     &kp COLON      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOSTROPHE     &kp CARET      &kp F7  &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp INT_YEN  &kp AMPERSAND  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp DOUBLE_QUOTES  &kp ASTRK      &kp F8  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&trans       &trans         &trans            &trans             &trans             &trans         &trans  &trans                                                  &kp SLASH
             >;
         };
 
