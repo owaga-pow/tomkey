@@ -42,7 +42,7 @@
         compatible = "zmk,input-listener";
         status = "okay";  // enabledに変更
         device = <&trackball>;
-        input-processors = <&zip_xy_scaler 1 3>;  // ソフトウェアで1/3に減速
+        input-processors = <&zip_xy_scaler 1 15>;  // ソフトウェアで1/15に減速
     };
 };
 &trackball {
