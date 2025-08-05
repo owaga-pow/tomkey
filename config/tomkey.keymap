@@ -14,7 +14,7 @@
 &kp Q      &kp W         &kp E           &kp R             &kp T                                                         &kp Y                 &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S         &kp D           &kp F             &kp G        &kp QUESTION              &kp EXCLAMATION        &kp H                 &kp J  &kp K      &kp L    &kp MINUS
 &kp Z      &kp X         &kp C           &kp V             &kp B        &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp N                 &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 3 LANGUAGE_1  &lt 4 SPACE  &lt 5 LANGUAGE_2          &kp BACKSPACE          &mt LEFT_SHIFT ENTER                             &lt 5 LEFT_WIN
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 3 LANGUAGE_2  &lt 4 SPACE  &lt 5 LANGUAGE_1          &kp BACKSPACE          &mt LEFT_SHIFT ENTER                             &lt 5 LEFT_WIN
             >;
         };
 
