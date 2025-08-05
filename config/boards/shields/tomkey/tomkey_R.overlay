@@ -33,7 +33,7 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
-        cpi = <3200>;  // 最大CPIで滑らかさを確保
+        cpi = <1600>;  // 安定性とのバランスを取った設定
     };
 };
 
