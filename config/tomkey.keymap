@@ -38,16 +38,16 @@
 
         ARROW {
             bindings = <
-&none   &kp LG(G)     &kp PRINTSCREEN  &none      &kp C_MUTE                                           &none   &none           &kp UP_ARROW    &none            &none
-&none   &kp LEFT_WIN  &kp ESCAPE       &kp TAB    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC      &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&none   &none         &kp LC(C)        &kp LC(V)  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC      &none   &none   &none           &none           &none            &none
-&trans  &trans        &trans           &trans     &trans             &trans                    &trans  &trans                                                   &trans
+&none            &kp LG(G)     &kp PRINTSCREEN  &none      &kp C_MUTE                                           &none   &none           &kp UP_ARROW    &none            &none
+&kp DELETE       &kp LEFT_WIN  &kp ESCAPE       &kp TAB    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC      &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&kp PAUSE_BREAK  &none         &kp LC(C)        &kp LC(V)  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC      &none   &none   &none           &none           &none            &none
+&trans           &trans        &trans           &trans     &trans             &trans                    &trans  &trans                                                   &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp EXCL       &kp AT         &kp HASH          &kp DOLLAR         &kp PRCNT                                      &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp EXCL       &kp AT         &kp HASH          &kp DOLLAR         &kp PRCNT                                      &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
 &kp COLON      &kp SEMI       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp DOUBLE_QUOTES      &kp F7  &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &kp BACKSLASH  &kp AMPERSAND  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp CARET       &kp ASTRK              &kp F8  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
 &trans         &trans         &trans            &trans             &trans          &trans                 &trans  &trans                                                  &kp SLASH
@@ -58,7 +58,7 @@
             bindings = <
 &kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &bootloader      &bootloader  &none         &none         &none         &none         &none
-&kp F11  &kp F12  &none   &none   &none    &none            &none        &none         &none         &none         &none         &none
+&kp F11  &kp F12  &none   &none   &none    &none            &none        &none         &none         &none         &none         &bt BT_CLR
 &trans   &trans   &trans  &trans  &trans   &trans           &trans       &trans                                                  &trans
             >;
         };
