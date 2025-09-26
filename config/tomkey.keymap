@@ -20,10 +20,10 @@
 
         MOUSE {
             bindings = <
-&none   &none   &none   &none   &none                       &none     &none        &mkp MB3   &none      &none
-&none   &none   &none   &none   &none   &none       &none   &mkp MB4  &mkp MB1     &mo 2      &mkp MB2   &mkp MB5
-&none   &none   &none   &none   &none   &none       &none   &none     &kp LC(TAB)  &kp LC(T)  &kp LC(R)  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                       &trans
+&none   &none   &none   &none   &none                       &none     &none     &mkp MB3  &none     &none
+&none   &none   &none   &none   &none   &none       &none   &mkp MB4  &mkp MB1  &mo 2     &mkp MB2  &mkp MB5
+&none   &none   &none   &none   &none   &none       &none   &none     &none     &none     &none     &none
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
             >;
         };
 
