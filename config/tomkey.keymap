@@ -47,10 +47,10 @@
 
         NUM {
             bindings = <
-&kp EXCL       &kp AT         &kp HASH          &kp DOLLAR         &kp PRCNT                                      &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&kp COLON      &kp SEMI       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp DOUBLE_QUOTES      &kp F7  &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp BACKSLASH  &kp AMPERSAND  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp CARET       &kp ASTRK              &kp F8  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-&trans         &trans         &trans            &trans             &trans          &trans                 &trans  &trans                                                  &kp SLASH
+&kp EXCL       &kp AT         &kp HASH          &kp DOLLAR         &kp PRCNT                                                        &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp COLON      &kp SEMI       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp DOUBLE_QUOTES         &kp F7                 &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp BACKSLASH  &kp AMPERSAND  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp CARET       &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+&trans         &trans         &trans            &trans             &trans          &trans                    &trans                 &trans                                                  &kp SLASH
             >;
         };
 
@@ -60,6 +60,15 @@
 &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &bootloader      &bootloader  &none         &none         &none         &none         &none
 &kp F11  &kp F12  &none   &none   &none    &none            &none        &none         &none         &none         &none         &bt BT_CLR
 &trans   &trans   &trans  &trans  &trans   &trans           &trans       &trans                                                  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
