@@ -20,6 +20,6 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: te9no
-      revision: main
+      revision: v4
   self:
     path: config
